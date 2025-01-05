@@ -21,7 +21,7 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      '/api': 'http://localhost:5000', // Proxy API requests to your backend
+      '/api': 'https://coursify-g9dk.onrender.com', // Proxy API requests to your backend
     },
   },
 });
