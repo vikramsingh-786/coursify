@@ -15,7 +15,7 @@ const app = express();
 
 const allowedOrigins = [
     'http://localhost:5173', 
-    'https://my-learningplatform-vs.vercel.app' 
+    'https://coursifyvs.vercel.app' 
 ];
 
 app.use(
