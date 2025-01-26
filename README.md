@@ -4,7 +4,7 @@
 
 this is a lms project, that i have build while learning full stack development with my mentor. in this project i have build from scratch lots of feature like authentication, user management, course management, lecture management, lecture dashboard & admin dashboard and more...
 
-![LMS](https://res.cloudinary.com/dhwbyshmo/image/upload/v1695283699/project%20images/lms-home.png)
+![LMS](https://res.cloudinary.com/dksmrp2im/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1737873560/learning-management-system/Screenshot_2025-01-26_115003_n9rflv.png)
 
 ## Project Structure
 
@@ -14,36 +14,38 @@ The project follows a well-organized structure:
 LMS-Project/
 ├── backend/
 │   ├── config/
-│   │   ├── db.config.js 
+│   │   ├── db.config.js
+│   │   ├── cloudinary.js
+│   │   ├── cronJob.js
+│   │   ├── debug.js
+│   │   ├── razorpay.js
 │   ├── controllers/
-│   │   ├── user.controller.js
-│   │   ├── course.controller.js
+│   │   ├── auth.controller.js
+│   │   ├── Course.controller.js
 │   │   ├── payment.controller.js
 │   │   ├── miscellaneous.controller.js
 │   ├── middleware/
 │   │   ├── auth.middleware.js
-│   │   ├── error.middleware.js
+│   │   ├── roleCheck.middleware.js
 │   │   ├── multer.middleware.js
 │   ├── models/
-│   │   ├── user.model.js
-│   │   ├── course.model.js
-│   │   ├── payment.model.js
+│   │   ├── User.js
+│   │   ├── Course.model.js
+│   │   ├── Payment.model.js
 │   ├── routes/
-│   │   ├── user.routes.js
-│   │   ├── course.routes.js
+│   │   ├── auth.routes.js
+│   │   ├── Course.routes.js
 │   │   ├── payment.routes.js
 │   │   ├── miscellaneous.routes.js
 │   ├── uploads/
 │   ├── utils/
 │   │   ├── error.utils.js
 │   │   ├── sendEmail.js
-│   ├── server.js
 │   ├── app.js
-│   ├── .env
 │   ├── .env.example.js
 │   ├── package.json
 │
-├── client/
+├── frontend/
 │   ├── src/
 │   │   ├── assests/
 │   │   ├── components/
@@ -55,21 +57,17 @@ LMS-Project/
 │   │   ├── index.css/
 │   │   ├── main.jsx/
 │   │   ├── ...
-│   ├── .env
 │   ├── .env.example.js
-│   ├── .gitignore
+│   ├── vite.config
+│   ├── vercel.json
+│   ├── postcss.config
+│   ├── tailwind.config
 │   ├── index.html
 │   ├── package.json
 │   ├── README.md
 │   ├── ...
 └──
 ```
-
-## Demo Video
-
-[![Watch Demo Video](https://res.cloudinary.com/dhwbyshmo/image/upload/v1697537153/project%20images/lms-admin-dashboard.png)]
-
-Click the image above to watch the demo video.
 
 
 ## Features
