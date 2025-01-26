@@ -4,7 +4,7 @@
 
 this is a lms project, that i have build while learning full stack development with my mentor. in this project i have build from scratch lots of feature like authentication, user management, course management, lecture management, lecture dashboard & admin dashboard and more...
 
-![LMS](https://res.cloudinary.com/dksmrp2im/image/upload/w_200,h_200,c_limit,e_blur:400,o_90,b_black/l_text:arial_80:®,ar_1:1,c_lfill,o_60,co_rgb:ffffff,b_rgb:000000,r_max/v1737873560/learning-management-system/Screenshot_2025-01-26_115003_n9rflv.png)
+![LMS](https://res.cloudinary.com/dksmrp2im/image/upload/v1737873560/learning-management-system/Screenshot_2025-01-26_115003_n9rflv.png)
 
 ## Project Structure
 
